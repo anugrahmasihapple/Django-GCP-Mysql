@@ -97,7 +97,7 @@ if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine'):
             'HOST': '/cloudsql/django-sql-353506:us-central1:polls-instance', #instance name you get in terminal you can get it from overview in database 
             'NAME': 'main', #db name
             'USER': 'ben', #the user you create in user section
-            'PASSWORD': 'st.masih@261',  #user pass
+            'PASSWORD': 'your password',  #user pass
         }
     }
 else:
@@ -110,11 +110,11 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'HOST': '127.0.0.1' and '/cloudsql/django-sql-353506:us-central1:polls-instance',
+            'HOST': '127.0.0.1',
             'PORT': '3306',
             'NAME': 'main', #db name
             'USER': 'ben', #user you create
-            'PASSWORD': 'st.masih@261',
+            'PASSWORD': 'your pass',
         }
     }
 # [END db_setup]
